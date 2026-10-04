@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Environment variables — set these in Netlify dashboard (Site settings > Environment variables)
+# VITE_SUPABASE_URL = your Supabase project URL
+# VITE_SUPABASE_ANON_KEY = your Supabase anon key
+
+# SPA redirect — all routes serve index.html so hash routing works
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
