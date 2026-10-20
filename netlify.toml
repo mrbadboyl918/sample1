@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "22"
 
 # Environment variables — set these in Netlify dashboard (Site settings > Environment variables)
 # VITE_SUPABASE_URL = your Supabase project URL

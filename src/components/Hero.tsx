@@ -120,9 +120,11 @@ export default function Hero() {
           <div className="hidden lg:block">
             <div className="relative w-full h-[520px]">
               {/* Central orb */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-gradient-to-br from-violet-400/30 to-purple-400/30 rounded-full border border-white/20 backdrop-blur-sm flex items-center justify-center animate-float shadow-violet-lg">
-                <div className="w-24 h-24 bg-gradient-to-br from-violet-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg overflow-hidden">
-                  <img src="/file_0000000044e861fa873930d3fff21c26_20260413_072832_0000.png" alt="Quantifix Logo" className="w-16 h-16 object-contain" />
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <div className="w-40 h-40 bg-gradient-to-br from-violet-400/30 to-purple-400/30 rounded-full border border-white/20 backdrop-blur-sm flex items-center justify-center animate-float shadow-violet-lg">
+                  <div className="w-24 h-24 bg-gradient-to-br from-violet-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg overflow-hidden">
+                    <img src="/file_0000000044e861fa873930d3fff21c26_20260413_072832_0000.png" alt="Quantifix Logo" className="w-16 h-16 object-contain" />
+                  </div>
                 </div>
               </div>
 
